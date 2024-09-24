@@ -7,10 +7,13 @@ public class Player_move : MonoBehaviour
     public float moveSpeed = 5f;
     public float rotationSpeed = 360f;
 
+    Animator animator;
+
     CharacterController characterController;
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,5 +30,7 @@ public class Player_move : MonoBehaviour
             transform.LookAt(transform.position + forward);
         }
         characterController.Move(direction * moveSpeed * Time.deltaTime);
+
+        animator.SetFloat("Speed", characterController.velocity.magnitude);
     }
 }
