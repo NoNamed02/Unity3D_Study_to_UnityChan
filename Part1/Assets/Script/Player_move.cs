@@ -44,7 +44,7 @@ public class Player_move : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("TTTT");
-        {Destroy(other.gameObject);}
+        if(other.tag == "Coin") Destroy(other.gameObject);
+        if(other.tag == "Enemy") SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
