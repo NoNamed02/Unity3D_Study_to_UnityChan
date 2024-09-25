@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_move : MonoBehaviour
 {
@@ -32,5 +33,18 @@ public class Player_move : MonoBehaviour
         characterController.Move(direction * moveSpeed * Time.deltaTime);
 
         animator.SetFloat("Speed", characterController.velocity.magnitude);
+
+        if(GameObject.FindGameObjectsWithTag("Coin").Length == 0)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Debug.Log("scence reload");
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        //Debug.Log("TTTT");
+        {Destroy(other.gameObject);}
     }
 }
