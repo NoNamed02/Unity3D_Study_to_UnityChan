@@ -36,15 +36,16 @@ public class Player_move : MonoBehaviour
 
         if(GameObject.FindGameObjectsWithTag("Coin").Length == 0)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            //Application.LoadLevel(Application.loadedLevel);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            Debug.Log("scence reload");
+            SceneManager.LoadScene("Win");
+            //Debug.Log("scence reload");
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Coin") Destroy(other.gameObject);
-        if(other.tag == "Enemy") SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if(other.tag == "Enemy") SceneManager.LoadScene("Defeat");
     }
 }
