@@ -11,3 +11,4 @@ __사용 교제__
 - [Part1 - 2 : 코드 분석, 애니메이션 추가](https://nonamed02.tistory.com/47)
 - [Part1 - 3 : 동전 추가, 충돌처리](https://nonamed02.tistory.com/48)
 - [Part1 - 4 : NavMesh처리, 적 스크립트, 충돌 구현](https://nonamed02.tistory.com/49)
+- [Part1 - 5 : 씬 전환하기, 타이틀 화면, 승리, 패배 씬 추가](https://nonamed02.tistory.com/51)
