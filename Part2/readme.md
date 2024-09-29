@@ -1,1 +1,1 @@
-https://www.youtube.com/watch?v=H0u0m2K_B6Y&ab_channel=%EC%9D%B5%EB%AA%85s
+[![Video Label](http://img.youtube.com/vi/H0u0m2K_B6Y&ab/0.jpg)](https://youtu.be/H0u0m2K_B6Y&ab)
