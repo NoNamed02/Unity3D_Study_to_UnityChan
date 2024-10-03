@@ -17,3 +17,9 @@ __Part1(팩맨)__
 
 __Part2(카메라 조작)__
 - [Part2 : 마우스로 카메라 이동, 회전, 줌 인, 아웃](https://nonamed02.tistory.com/53)
+
+__Part3(효과음 사용하기, 세이브 로드)__
+- [Part3 : 말하는 유니티짱 만들기(효과음 넣기), 세이브, 로드기능](https://nonamed02.tistory.com/55)
+  
+__Part4(Ray와 충돌처리)__
+- [Part4 : 유니티짱 터치하기, 레이(Raycast)와 충돌처리](https://nonamed02.tistory.com/56)
