@@ -23,3 +23,6 @@ __Part3(효과음 사용하기, 세이브 로드)__
   
 __Part4(Ray와 충돌처리)__
 - [Part4 : 유니티짱 터치하기, 레이(Raycast)와 충돌처리](https://nonamed02.tistory.com/56)
+  
+__Part5(가위바위보)__
+- [Part5 : 가위바위보 게임 만들기](https://nonamed02.tistory.com/57)
